@@ -1,3 +1,14 @@
+/*
+Micro just purchased a queue and wants to perform N operations on the queue. The operations are of following type:
+
+E x: Enqueue x in the queue and print the new size of the queue.
+D: Dequeue from the queue and print the element that is deleted and the new size of the queue separated by space.
+If there is no element in the queue then print 1 in place of deleted element.
+
+For each enqueue operation print the new size of the queue.
+And for each dequeue operation print two integers, deleted element (1, if queue is empty) and the new size of the queue.
+*/
+
 #include<iostream>
 using namespace std;
 
